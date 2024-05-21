@@ -69,3 +69,7 @@ Usually, the main part of the result is the `out/method/result/*.txt` file.
 ```
 biblatex content
 ```
+
+# contacts
+
+if you have questions, please email to the author
