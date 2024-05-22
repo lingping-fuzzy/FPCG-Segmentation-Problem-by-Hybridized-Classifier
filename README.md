@@ -23,6 +23,10 @@ Navigate to the repository root and run the following commands:
 \url{https://ag-datasets-89f203ac-44ed-4a06-9395-1e069e8e662d.s3-us-west-2.amazonaws.com/springer_dataset.mat} from paper citation 12
 paper [cited](https://github.com/alvgaona/heart-sounds-segmentation/tree/matlab?tab=readme-ov-file)
 ```
+The synthetic data will be available here:
+```
+\url{https://drive.google.com/drive/folders/1LJCS5XZb7yZG3VLqGIva-XvRnL4MuDSn?usp=drive_link}
+```
 
 After that, the `data/` directory should appear.
 
