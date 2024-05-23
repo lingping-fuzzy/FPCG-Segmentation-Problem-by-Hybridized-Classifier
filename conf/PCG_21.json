@@ -1,0 +1,37 @@
+{
+    "gpu": {
+        "use": true,
+        "id": 0
+    },
+
+    "model": "Transformer",
+    "dataset": "PCG_signal1",
+
+    "out_dir": "out/PCG_GT_d3/",
+
+    "params": {
+        "seed": 13,
+        "epochs": 1000,
+        "batch_size": 32,
+        "init_lr": 1e-3,
+        "lr_reduce_factor": 0.5,
+        "lr_schedule_patience": 10,
+        "min_lr": 1e-5,
+        "weight_decay": 0.0,
+        "print_epoch_interval": 5,
+        "max_time": 48
+    },
+
+    "net_params": {
+        "L": 1,
+        "n_heads": 16,
+        "hidden_dim": 1600,
+        "dropout": 0.1,
+        "sigLen": 2000,
+        "fet_dim": 88,
+        "n_classes": 4,
+        "HWorder": true,
+        "kernel_size": 1
+
+    }
+}

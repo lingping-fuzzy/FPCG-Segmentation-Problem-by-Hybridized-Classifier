@@ -1,0 +1,25 @@
+{
+    "gpu": {
+        "use": true,
+        "id": 0
+    },
+    
+    "model": "XGBoost",
+    "dataset": "PCG_signal",
+
+    "out_dir": "out1/PCG_xgb/",
+
+
+    "data_params": {
+        "sigLen": 2000,
+        "fet_dim": 88,
+        "n_classes": 4
+    },
+    "net_params": {
+        "max_depth": 3,
+        "n_estimators": 2,
+        "seed": 42,
+       "subsample": 0.1,
+        "eta": 0.1
+    }
+}
