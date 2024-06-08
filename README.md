@@ -71,9 +71,17 @@ Usually, the main part of the result is the `out/method/result/*.txt` file.
 # How to cite<!-- omit in toc -->
 
 ```
-biblatex content
+@article{kong2024analysis,
+  title={Analysis on fetal phonocardiography segmentation problem by hybridized classifier},
+  author={Kong, Lingping and Barnova, Katerina and Jaros, Rene and Mirjalili, Seyedali and Snasel, Vaclav and Pan, Jeng-Shyang and Martinek, Radek},
+  journal={Engineering Applications of Artificial Intelligence},
+  volume={135},
+  pages={108621},
+  year={2024},
+  publisher={Elsevier}
+}t
 ```
 
 # contacts
 
-if you have questions, please email to the author
+if you have questions, please email to the author lingping_kong@yahoo.com
